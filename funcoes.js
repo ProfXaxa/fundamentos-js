@@ -8,3 +8,8 @@ function imprimeTexto(texto){
 }
 
 imprimeTexto("oi mundo!");
+imprimeTexto(soma());
+
+function soma(){
+    return 2 + 2;
+}
